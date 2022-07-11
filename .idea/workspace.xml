@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f73d303-af23-4d36-a5d5-0e4e25568055" name="Changes" comment="" />
+    <list default="true" id="7f73d303-af23-4d36-a5d5-0e4e25568055" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/string" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolutionKt">
+  <component name="RunManager" selected="Kotlin.SolutionKt (1)">
     <configuration name="GetReportKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level1.GetReportKt" />
       <module name="codingTest" />
@@ -57,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhneKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhneKt" />
+    <configuration name="Solution2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution2Kt" />
       <module name="codingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution2Kt" />
+    <configuration name="SolutionKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.실패율.SolutionKt" />
       <module name="codingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,19 +105,19 @@
     <list>
       <item itemvalue="Kotlin.Unnamed" />
       <item itemvalue="Kotlin.SolutionKt" />
+      <item itemvalue="Kotlin.SolutionKt (1)" />
       <item itemvalue="Kotlin.약수Kt" />
-      <item itemvalue="Kotlin.PhneKt" />
       <item itemvalue="Kotlin.Solution2Kt" />
       <item itemvalue="Kotlin.TestKt" />
       <item itemvalue="Kotlin script.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolutionKt (1)" />
         <item itemvalue="Kotlin.SolutionKt" />
         <item itemvalue="Kotlin.약수Kt" />
         <item itemvalue="Kotlin.Solution2Kt" />
         <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.PhneKt" />
       </list>
     </recent_temporary>
   </component>
