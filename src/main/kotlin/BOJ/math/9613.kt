@@ -1,25 +1,30 @@
 package BOJ.math
 
-import java.io.BufferedReader
-import java.io.InputStreamReader
+import java.io.*
 
 fun main(){
-    val sol = Solution().solution()
-    println(sol)
+    val sol = _9613().solution()
 }
 
 class _9613 {
-    fun solution(): Int = with(BufferedReader(InputStreamReader(System.`in`))){
-        var answer: Int = 0
+    fun solution() = with(BufferedReader(InputStreamReader(System.`in`))){
         val size = readLine()!!.toInt()
-        var numbers = readLine()!!.toString().split(" ")
-        for( num in numbers ){
-            var divisor = 0
-            for (i in 2 until num.toInt()){
-                if(num.toInt() % i == 0) divisor++
+        val bw = BufferedWriter(OutputStreamWriter(System.out))
+        for( case in 0 until size ){
+            val numbers = with(readLine().toString().split(" ")){
+                return@with this.subList(1,this.size)
             }
-            if(num.toInt() != 1 && divisor==0) answer++
+            var sum = 0L
+            numbers.forEachIndexed { index, s ->
+                for ( i in index+1 until numbers.size ){
+                    sum += getGCD(s.toInt(),numbers[i].toInt())
+                }
+            }
+            println(sum)
         }
-        return answer
+    }
+    fun getGCD(x : Int , y: Int) : Long{
+        if(y == 0) return x.toLong();
+        else return getGCD(y,x % y);
     }
 }
