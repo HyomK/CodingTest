@@ -1,2 +1,0 @@
-package BOJ.`Graph Traversal`
-
