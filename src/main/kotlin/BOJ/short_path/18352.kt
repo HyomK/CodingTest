@@ -33,6 +33,7 @@ class _18352{
         }
         route[start]=0
 
+
         if(map[start].size>0) queue.add(Node(start,0))
 
         while(queue.isNotEmpty()){

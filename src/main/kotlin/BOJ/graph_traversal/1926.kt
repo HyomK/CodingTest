@@ -1,4 +1,4 @@
-package BOJ.`Graph Traversal`
+package BOJ.graph_traversal
 
 import java.io.BufferedReader
 import java.io.InputStreamReader

@@ -1,7 +1,4 @@
-package BOJ.`Graph Traversal`
-
-import java.util.LinkedList
-import java.util.Queue
+package BOJ.graph_traversal
 
 fun main(){
     _2677().solution()

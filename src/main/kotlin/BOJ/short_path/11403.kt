@@ -1,4 +1,4 @@
-package BOJ.`Graph Traversal`
+package BOJ.short_path
 
 import java.util.*
 
