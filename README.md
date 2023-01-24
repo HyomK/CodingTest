@@ -5,3 +5,4 @@
 - [Dijkstra](https://github.com/HyomK/CodingTest/blob/main/Algorithm/Dijkstra.md)
 - [Bellman-Ford](https://github.com/HyomK/CodingTest/blob/main/Algorithm/Bellman-Ford.md)
 - [Floyd-Warshall](https://github.com/HyomK/CodingTest/blob/main/Algorithm/Floyd-Warshall.md)
+- [Binary-Search](https://github.com/HyomK/CodingTest/blob/main/Algorithm/Binary%20Search.md)
