@@ -8,19 +8,16 @@ class P11305 {
         val num = readLine().toInt()
         val road = readLine().split(" ").map{it.toLong()}
         val city = readLine().split(" ").map{it.toLong()}
-        val dp = LongArray(num){ Long.MAX_VALUE.toLong()}
-        val total = road.sum()
-        var sum = 0L
-        for(c in 0 until city.size -1){
-            sum = 0
+        var result = 0L
 
-            for (i in c until road.size){
-                sum+=road[i]
-                if( c==0 ) dp[i] = sum * city[c]
-                else  dp[i] = Math.min(dp[i],sum * city[c]+dp[c-1])
-            }
+        //오일값이 싸지면 무조건 교체하는 것이 이득
+        var now = city[0]
 
+        for(i in 0 until city.size-1 ){
+            now = Math.min(now,city[i])
+            result += now * road[i]
         }
-        println(dp[road.size-1])
+
+        println(result)
     }
 }
