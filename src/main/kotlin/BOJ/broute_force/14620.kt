@@ -1,5 +1,6 @@
 package BOJ.broute_force
 
+
 fun main(){
     P14620().solution()
 }
