@@ -39,9 +39,8 @@ class P14888 {
         }
     }
 
-    //+ - x %
+    // 중복 방지를 위해 class 화
     fun backTracking( tmpOp : ArrayList<OP>){
-        //유망하지 않다는 것은?
         if(tmpOp.size == tot){
             var result = nums[0]
             for(i in 0 until tmpOp.size){
@@ -63,16 +62,12 @@ class P14888 {
             max = Math.max(max, result)
         }
 
-        //순열로 해결
-        // 1 1 0 2 2 1
         for(i in 0 until ops.size){
             if(tmpOp.map{it.id}.contains(ops[i].id)) continue
-            //이미 소진한 연산자
             tmpOp.add(ops[i])
             backTracking(tmpOp)
             tmpOp.removeLast()
         }
-
     }
 
     fun solution()= with(System.`in`.bufferedReader()){
