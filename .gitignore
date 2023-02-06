@@ -11,6 +11,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -156,3 +157,6 @@ replay_pid*
 #compile file
 *.txt
 src/main/kotlin/MyBuffer.kt
+src/.DS_Store
+.DS_Store
+codingTest.iml
